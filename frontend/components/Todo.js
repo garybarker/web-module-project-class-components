@@ -4,7 +4,7 @@ export default class Todo extends React.Component {
   render() {
     return (
       <div>
-        {this.props.todo}
+        {this.props.todo.name}
       </div>
     )
   }

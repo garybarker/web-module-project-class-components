@@ -5,12 +5,12 @@ const todosList = [
   {
     name: 'Laundry',
     id: 1,
-    done: false
+    completed: false
   },
   {
     name: 'Dishes',
-    id: 1,
-    done: false
+    id: 2,
+    completed: false
   }
 ]
 class App extends React.Component {
